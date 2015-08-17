@@ -4,7 +4,7 @@ class Nite < Formula
   homepage 'https://drive.google.com/file/d/0B01_p2mKslsWSXBJZklVTnpiejA/view?usp=sharing'
   url 'https://docs.google.com/uc?export=download&confirm=Pwwo&id=0B01_p2mKslsWSXBJZklVTnpiejA'
   version '1.5.2.21'
-  sha1 '9dad7d093e02cf2edc50ac5e61f224eb07ba7c7e'
+  sha1 '673fed0cd47141db9a5339662f04801cf3a00e40'
 
   depends_on 'openni' => (build.universal?) ? ['universal'] : []
 
