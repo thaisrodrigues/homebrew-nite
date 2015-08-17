@@ -1,8 +1,8 @@
 require 'formula'
 
 class Nite < Formula
-  homepage 'https://onedrive.live.com/redir?resid=33B0FE678911B037%21573'
-  url 'https://onedrive.live.com/download?resid=33B0FE678911B037%21573'
+  homepage 'https://drive.google.com/file/d/0B01_p2mKslsWSXBJZklVTnpiejA/view?usp=sharing'
+  url 'https://docs.google.com/uc?export=download&confirm=Pwwo&id=0B01_p2mKslsWSXBJZklVTnpiejA'
   version '1.5.2.21'
   sha1 '9dad7d093e02cf2edc50ac5e61f224eb07ba7c7e'
 
