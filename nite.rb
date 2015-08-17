@@ -11,6 +11,7 @@ class Nite < Formula
 
   def install
     ENV.universal_binary if build.universal?
+    cxxstdlib_check :skip
     system 'tar zxvf nite.1.5.bz2'
     cd 'nite.1.5'
 
