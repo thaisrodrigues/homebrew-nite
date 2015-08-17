@@ -3,7 +3,7 @@ require 'formula'
 class Nite < Formula
   homepage 'https://drive.google.com/file/d/0B01_p2mKslsWSXBJZklVTnpiejA/view?pli=1'
   url 'https://drive.google.com/uc?export=download&confirm=ys24&id=0B01_p2mKslsWSXBJZklVTnpiejA
-  version 'nite.1.5'
+  version '1.5.2.21'
   
   depends_on 'openni' => (build.universal?) ? ['universal'] : []
 
