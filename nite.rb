@@ -1,9 +1,9 @@
 require 'formula'
 
 class Nite < Formula
-  homepage 'https://drive.google.com/file/d/0B01_p2mKslsWSXBJZklVTnpiejA/view?usp=sharing'
-  url 'https://docs.google.com/uc?export=download&confirm=Pwwo&id=0B01_p2mKslsWSXBJZklVTnpiejA'
-  version '1.5.2.21'
+  homepage 'https://drive.google.com/file/d/0B01_p2mKslsWSXBJZklVTnpiejA/view?pli=1'
+  url 'https://drive.google.com/uc?export=download&confirm=ys24&id=0B01_p2mKslsWSXBJZklVTnpiejA
+  version 'nite.1.5.bz2'
   
   depends_on 'openni' => (build.universal?) ? ['universal'] : []
 
@@ -11,8 +11,8 @@ class Nite < Formula
 
   def install
     ENV.universal_binary if build.universal?
-    system 'tar zxvf NITE-Bin-MacOSX-v1.5.2.21.tar.bz2'
-    cd 'NITE-Bin-Dev-MacOSX-v1.5.2.21'
+    system 'tar zxvf nite.1.5.bz2'
+    cd 'nite.1.5'
 
     ohai 'Installing...'
 
